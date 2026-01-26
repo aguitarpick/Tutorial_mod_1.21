@@ -6,5 +6,8 @@
   "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
 
   "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks"
+  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks",
+
+  "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
+  "block.tutorialmod.pink_garnet_deepslate_ore": "Deepslate Pink Garnet Ore"
 }
