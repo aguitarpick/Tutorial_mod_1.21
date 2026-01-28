@@ -13,5 +13,10 @@
 
   "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.tutorialmod.pink_garnet_deepslate_ore": "Deepslate Pink Garnet Ore",
-  "block.tutorialmod.magic_block": "Magic Block"
+  "block.tutorialmod.magic_block": "Magic Block",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This block is §9magical!§r",
+  "tooltip.tutorialmod.chisel.shift_down": "This item chisels chisels!",
+  "tooltip.tutorialmod.chisel": "Press shift for more information!",
+  "tooltip.tutorialmod.cauliflower.tooltip": "This is caulifloder"
 }
