@@ -54,5 +54,7 @@
   "tooltip.tutorialmod.cauliflower.tooltip": "This is caulifloder",
 
   "trim_material.tutorialmod.pink_garnet": "Pink Garnet Material",
-  "trim_pattern.tutorialmod.kaupen": "Kaupen Armor Pattern"
+  "trim_pattern.tutorialmod.kaupen": "Kaupen Armor Pattern",
+
+  "item.tutorialmod.pink_garnet_bow": "Pink Garnet Bow"
 }
