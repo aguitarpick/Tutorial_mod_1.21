@@ -11,6 +11,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.slimefog.tutorialmod.TutorialMod;
 import net.slimefog.tutorialmod.block.custom.MagicBlock;
 import net.slimefog.tutorialmod.block.custom.PinkGarnetLampBlock;
+import net.slimefog.tutorialmod.sound.ModSounds;
 
 public class ModBlocks {
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block", new Block(AbstractBlock.Settings.create().strength(4f)
@@ -25,7 +26,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
-    public static final Block MAGIC_BLOCK = registerBlock("magic_block", new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block", new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     public static final Block PINK_GARNET_STAIRS = registerBlock("pink_garnet_stairs",
             new StairsBlock(ModBlocks.PINK_GARNET_BLOCK.getDefaultState(),

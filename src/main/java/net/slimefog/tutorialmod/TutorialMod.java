@@ -15,6 +15,7 @@ import net.slimefog.tutorialmod.block.ModBlocks;
 import net.slimefog.tutorialmod.component.ModDataComponentTypes;
 import net.slimefog.tutorialmod.item.ModItemGroups;
 import net.slimefog.tutorialmod.item.ModItems;
+import net.slimefog.tutorialmod.sound.ModSounds;
 import net.slimefog.tutorialmod.util.HammerUsageEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,6 +30,7 @@ public class TutorialMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 		ModDataComponentTypes.registerDataComponentTypes();
+		ModSounds.registerSounds();
 
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 

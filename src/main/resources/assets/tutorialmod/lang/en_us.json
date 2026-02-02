@@ -56,5 +56,8 @@
   "trim_material.tutorialmod.pink_garnet": "Pink Garnet Material",
   "trim_pattern.tutorialmod.kaupen": "Kaupen Armor Pattern",
 
-  "item.tutorialmod.pink_garnet_bow": "Pink Garnet Bow"
+  "item.tutorialmod.pink_garnet_bow": "Pink Garnet Bow",
+
+  "item.tutorialmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.tutorialmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)"
 }
