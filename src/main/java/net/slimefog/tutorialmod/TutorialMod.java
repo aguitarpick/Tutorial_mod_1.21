@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
 import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -17,6 +18,8 @@ import net.minecraft.util.ActionResult;
 import net.slimefog.tutorialmod.block.ModBlocks;
 import net.slimefog.tutorialmod.component.ModDataComponentTypes;
 import net.slimefog.tutorialmod.effect.ModEffects;
+import net.slimefog.tutorialmod.enchantment.ModEnchantmentEffects;
+import net.slimefog.tutorialmod.enchantment.ModEnchantments;
 import net.slimefog.tutorialmod.item.ModItemGroups;
 import net.slimefog.tutorialmod.item.ModItems;
 import net.slimefog.tutorialmod.potion.ModPotions;
@@ -38,6 +41,7 @@ public class TutorialMod implements ModInitializer {
 		ModSounds.registerSounds();
 		ModEffects.registerEffects();
 		ModPotions.registerPotions();
+		ModEnchantmentEffects.registerEnchantmentEffects();
 
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_ASHES, 600);
 
@@ -59,5 +63,9 @@ public class TutorialMod implements ModInitializer {
 		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
 			builder.registerPotionRecipe(Potions.AWKWARD, Items.SLIME_BALL, ModPotions.SLIMEY_POTION);
 		});
+
+		CompostingChanceRegistry.INSTANCE.add(ModItems.CAULIFLOWER, 0.5f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.CAULIFLOWER_SEEDS, 0.25f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.HONEY_BERRIES, 0.25f);
 	}
 }
