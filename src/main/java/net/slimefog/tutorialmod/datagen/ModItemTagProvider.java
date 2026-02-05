@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
+import net.slimefog.tutorialmod.block.ModBlocks;
 import net.slimefog.tutorialmod.item.ModItems;
 import net.slimefog.tutorialmod.util.ModTags;
 

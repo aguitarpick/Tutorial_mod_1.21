@@ -52,6 +52,8 @@
 
   "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.tutorialmod.pink_garnet_deepslate_ore": "Deepslate Pink Garnet Ore",
+  "block.tutorialmod.pink_garnet_end_ore": "Nether Pink Garnet Ore",
+  "block.tutorialmod.pink_garnet_nether_ore": "End Pink Garnet Ore",
   "block.tutorialmod.magic_block": "Magic Block",
 
   "tooltip.tutorialmod.magic_block.tooltip": "This block is §9magical!§r",
